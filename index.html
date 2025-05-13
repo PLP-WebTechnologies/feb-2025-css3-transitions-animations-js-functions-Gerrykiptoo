@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interactive animations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive Animation </h1>
+        
+        <div class="theme-selector">
+            <h2>Choose Your Theme</h2>
+            <div class="theme-buttons">
+                <button id="theme-light" class="theme-btn">Light</button>
+                <button id="theme-dark" class="theme-btn">Dark</button>
+                <button id="theme-colorful" class="theme-btn">Colorful</button>
+            </div>
+        </div>
+
+        <div class="animation-section">
+            <h2>Animation Playground</h2>
+            <div class="animation-container">
+                <div class="animated-element" id="animated-box"></div>
+            </div>
+            <div class="animation-controls">
+                <button id="animation-rotate" class="animation-btn">Rotate</button>
+                <button id="animation-bounce" class="animation-btn">Bounce</button>
+                <button id="animation-pulse" class="animation-btn">Pulse</button>
+                <button id="animation-reset" class="animation-btn">Reset</button>
+            </div>
+        </div>
+
+        <div class="user-preferences">
+            <h2>Your Preferences</h2>
+            <p>Your selected theme and last animation will be saved automatically.</p>
+            <button id="clear-preferences" class="clear-btn">Clear Saved Preferences</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
